@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Videos com html5</title>
+</head>
+<body>
+    <h1>
+        Inserindo videos hospedados localmente
+    </h1>
+    <p>
+        Este video esta hospedado no meu proprio servidor
+    </p>
+    <!--<video src="midias/videozin.m4v" width="500" controls></video>-->
+    <video width="560" height="315" poster="midias/Java-200.png" controls>
+        <source src="midias/videozin.m4v" type="video/mp4">
+        <source src="midias/videozin.webm" type="video/webm">
+        <source src="midias/videozin.mp4" type="video/mp4">
+        <p>Seu navegador não é compativel com videos</p>
+    </video>
+
+    <h1>
+        Inserindo vídeos do youtube
+    </h1>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/FdE5G95B7Mg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    <h1>
+        Inserindo vídeos do vimeo
+    </h1>
+    <iframe src="https://player.vimeo.com/video/210589055?h=2618711c36&title=0&portrait=0" width="560" height="259" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>
+</body>
+</html>

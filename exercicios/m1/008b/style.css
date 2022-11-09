@@ -1,0 +1,19 @@
+body{
+    background-color: rgb(23, 0, 36);
+    color:rgb(238, 213, 180);
+}
+h1{
+    text-align: center;
+}
+h2{
+    margin-left: 30px;
+}
+p{
+    margin-left: 60px;
+}
+pre{
+    margin-left:60px;
+}
+blockquote{
+    margin-left: 90px;
+}

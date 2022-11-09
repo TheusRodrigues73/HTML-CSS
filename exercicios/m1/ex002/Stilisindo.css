@@ -1,0 +1,9 @@
+body{
+    background-color: rgb(73, 71, 71);
+    color: antiquewhite;
+}
+h1{
+    background-color:dimgrey;
+    border-radius: 10px;
+    text-align: center;
+}
